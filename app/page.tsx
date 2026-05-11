@@ -115,7 +115,7 @@ export default function Home() {
         className="flex items-center justify-between">
         <div className="flex items-center gap-3">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.png" alt="Adolfo Arroyo" className="h-8 object-contain" onError={e => (e.currentTarget.style.display='none')} />
+          <img src="/logo-transparent.png" alt="Adolfo Arroyo" style={{ height: 44, width: 'auto', objectFit: 'contain' }} />
           <span style={{ fontSize: 13, color: 'var(--text-muted)', fontWeight: 500 }}>
             Configuración de Agente IA
           </span>
